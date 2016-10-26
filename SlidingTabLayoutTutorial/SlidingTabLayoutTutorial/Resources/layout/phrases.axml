@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:weightSum="1">
+<!--  1st Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+   
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="What do you want to say?"
+            android:textSize="14dip" />
+        <Button
+            android:text="Speak"
+            android:id="@+id/speak"
+            android:layout_weight="3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="11dip"
+            android:background="@drawable/speak_button"
+            style="@style/button_style1" />
+    </LinearLayout>
+<!--  2nd Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/helloMyNameIs"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/hi"
+            android:text="Hello, my name is "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ralph"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ralph"
+            android:text="Ralph "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/goodbye"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/goodbye"
+            android:text="See you later. "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+    </LinearLayout>
+<!--3rd child layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/niceToMeetYou"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/Hello"
+            android:text="It is nice to meet you. "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/thankYou"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/thankyou"
+            android:text="Thank you! "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/thirsty"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/thirsty"
+            android:text="I'm feeling thirsty. "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+    </LinearLayout>
+<!--4th child layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/hungry"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/hungry"
+            android:text="I'm feeling hungry. "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/tired"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/sleepy"
+            android:text="I'm feeling tired. "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/potty"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/potty"
+            android:text="I need to use the toilet. "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/iLoveYou"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/love"
+            android:text="I love you! "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/wantToPlay"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/play"
+            android:text="Do you want to play? "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/runAway"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/run"
+            android:text="Run away with me! "
+            android:textSize="9dip"
+            android:layout_margin="5dp"
+            android:background="@drawable/word_button"
+            android:textAlignment="center"
+            style="@style/button_style1"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
