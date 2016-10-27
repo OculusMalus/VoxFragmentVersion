@@ -4,4 +4,6 @@
   <string name="ApplicationName">SlidingTabLayout</string>
   <string name="sample_show_log">Show Log</string>
   <string name="sample_hide_log">Hide Log</string>
+  <string name="History">History</string>
+  <string name="openCamera">Open Camera</string>
 </resources>

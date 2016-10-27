@@ -11,6 +11,26 @@
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:layout_weight="1"
-        />
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="What do you want to say?"
+            android:textSize="14dip" />
+        <Button
+            android:text="Speak"
+            android:id="@+id/speak"
+            android:layout_weight="4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11dip"
+            style="@style/button_style1"
+            android:background="@drawable/speak_button" />
+    </LinearLayout>
 </LinearLayout>

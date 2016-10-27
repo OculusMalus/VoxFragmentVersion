@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace SlidingTabLayoutTutorial
 {
-    [Activity(Label = "Sliding Tab Layout", MainLauncher = true, Icon = "@drawable/xs")]
+    [Activity(Label = "GoVox!", MainLauncher = true, Icon = "@drawable/xs")]
     public class MainActivity : Activity
     {
 

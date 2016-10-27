@@ -72,6 +72,9 @@
     <AndroidResource Include="Resources\layout\pager_item.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\words.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -102,6 +105,24 @@
     <AndroidResource Include="Resources\drawable\thankyou.png" />
     <AndroidResource Include="Resources\drawable\thirsty.png" />
     <AndroidResource Include="Resources\drawable\speak_button.xml" />
+    <AndroidResource Include="Resources\drawable\word_button.xml" />
+    <AndroidResource Include="Resources\drawable\love.png" />
+    <AndroidResource Include="Resources\drawable\play.png" />
+    <AndroidResource Include="Resources\drawable\run.png" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable\angry.png" />
+    <AndroidResource Include="Resources\drawable\come.png" />
+    <AndroidResource Include="Resources\drawable\feel.png" />
+    <AndroidResource Include="Resources\drawable\give.png" />
+    <AndroidResource Include="Resources\drawable\go.png" />
+    <AndroidResource Include="Resources\drawable\happy.png" />
+    <AndroidResource Include="Resources\drawable\help.png" />
+    <AndroidResource Include="Resources\drawable\home.png" />
+    <AndroidResource Include="Resources\drawable\I.png" />
+    <AndroidResource Include="Resources\drawable\please.png" />
+    <AndroidResource Include="Resources\drawable\they.png" />
+    <AndroidResource Include="Resources\drawable\you.png" />
+    <AndroidResource Include="Resources\drawable\button1.xml" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="xamandroidsupportv4-18">

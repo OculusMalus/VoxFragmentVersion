@@ -45,13 +45,94 @@ namespace SlidingTabLayoutTutorial
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ic_action_overflow = 2130837504;
+			public const int angry = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Icon = 2130837505;
+			public const int button1 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int xs = 2130837506;
+			public const int come = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int feel = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int give = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int go = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int goodbye = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int happy = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int Hello = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int help = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int hi = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int home = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int hungry = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int I = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int ic_action_overflow = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int Icon = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int love = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int play = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int please = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int potty = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int ralph = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int run = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int sleepy = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int speak_button = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int thankyou = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int they = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int thirsty = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int word_button = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int xs = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int you = 2130837533;
 			
 			static Drawable()
 			{
@@ -66,26 +147,104 @@ namespace SlidingTabLayoutTutorial
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070004
-			public const int item_subtitle = 2131165188;
+			// aapt resource value: 0x7f070014
+			public const int I = 2131165204;
 			
-			// aapt resource value: 0x7f070005
-			public const int item_title = 2131165189;
+			// aapt resource value: 0x7f070019
+			public const int angry = 2131165209;
 			
-			// aapt resource value: 0x7f070006
-			public const int menu = 2131165190;
-			
-			// aapt resource value: 0x7f070003
-			public const int sample_content_fragment = 2131165187;
+			// aapt resource value: 0x7f07001a
+			public const int come = 2131165210;
 			
 			// aapt resource value: 0x7f070002
-			public const int sample_main_layout = 2131165186;
+			public const int editText = 2131165186;
+			
+			// aapt resource value: 0x7f070017
+			public const int feel = 2131165207;
+			
+			// aapt resource value: 0x7f07001b
+			public const int give = 2131165211;
+			
+			// aapt resource value: 0x7f07001c
+			public const int go = 2131165212;
+			
+			// aapt resource value: 0x7f07000a
+			public const int goodbye = 2131165194;
+			
+			// aapt resource value: 0x7f070018
+			public const int happy = 2131165208;
+			
+			// aapt resource value: 0x7f070008
+			public const int helloMyNameIs = 2131165192;
+			
+			// aapt resource value: 0x7f07001e
+			public const int help = 2131165214;
+			
+			// aapt resource value: 0x7f07001f
+			public const int home = 2131165215;
+			
+			// aapt resource value: 0x7f07000e
+			public const int hungry = 2131165198;
+			
+			// aapt resource value: 0x7f070011
+			public const int iLoveYou = 2131165201;
+			
+			// aapt resource value: 0x7f070006
+			public const int item_subtitle = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int item_title = 2131165191;
+			
+			// aapt resource value: 0x7f070020
+			public const int menu = 2131165216;
+			
+			// aapt resource value: 0x7f07000b
+			public const int niceToMeetYou = 2131165195;
+			
+			// aapt resource value: 0x7f07001d
+			public const int please = 2131165213;
+			
+			// aapt resource value: 0x7f070010
+			public const int potty = 2131165200;
+			
+			// aapt resource value: 0x7f070009
+			public const int ralph = 2131165193;
+			
+			// aapt resource value: 0x7f070013
+			public const int runAway = 2131165203;
+			
+			// aapt resource value: 0x7f070005
+			public const int sample_content_fragment = 2131165189;
+			
+			// aapt resource value: 0x7f070004
+			public const int sample_main_layout = 2131165188;
 			
 			// aapt resource value: 0x7f070000
 			public const int sliding_tabs = 2131165184;
 			
+			// aapt resource value: 0x7f070003
+			public const int speak = 2131165187;
+			
+			// aapt resource value: 0x7f07000c
+			public const int thankYou = 2131165196;
+			
+			// aapt resource value: 0x7f070016
+			public const int they = 2131165206;
+			
+			// aapt resource value: 0x7f07000d
+			public const int thirsty = 2131165197;
+			
+			// aapt resource value: 0x7f07000f
+			public const int tired = 2131165199;
+			
 			// aapt resource value: 0x7f070001
 			public const int viewpager = 2131165185;
+			
+			// aapt resource value: 0x7f070012
+			public const int wantToPlay = 2131165202;
+			
+			// aapt resource value: 0x7f070015
+			public const int you = 2131165205;
 			
 			static Id()
 			{
@@ -108,6 +267,12 @@ namespace SlidingTabLayoutTutorial
 			
 			// aapt resource value: 0x7f030002
 			public const int pager_item = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int phrases = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int words = 2130903044;
 			
 			static Layout()
 			{
@@ -144,6 +309,12 @@ namespace SlidingTabLayoutTutorial
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
+			// aapt resource value: 0x7f040004
+			public const int History = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int openCamera = 2130968581;
+			
 			// aapt resource value: 0x7f040003
 			public const int sample_hide_log = 2130968579;
 			
@@ -163,11 +334,14 @@ namespace SlidingTabLayoutTutorial
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int CustomActionBarTheme = 2131034112;
-			
 			// aapt resource value: 0x7f050001
-			public const int MyActionBar = 2131034113;
+			public const int CustomActionBarTheme = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int MyActionBar = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int button_style1 = 2131034112;
 			
 			static Style()
 			{

@@ -7,19 +7,19 @@
     android:layout_marginTop="5dp"
     android:weightSum="1">
 <!--  1st Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
-   
+    
 <!--  2nd Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/helloMyNameIs"
+            android:id="@+id/I"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/hi"
-            android:text="Hello, my name is "
+            android:drawableTop="@drawable/I"
+            android:text="I "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -27,12 +27,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/ralph"
+            android:id="@+id/you"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ralph"
-            android:text="Ralph "
+            android:drawableTop="@drawable/you"
+            android:text="you "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -40,12 +40,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/goodbye"
+            android:id="@+id/they"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/goodbye"
-            android:text="See you later. "
+            android:drawableTop="@drawable/they"
+            android:text="they "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -59,12 +59,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/niceToMeetYou"
+            android:id="@+id/feel"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/Hello"
-            android:text="It is nice to meet you. "
+            android:drawableTop="@drawable/feel"
+            android:text="feel "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -72,12 +72,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/thankYou"
+            android:id="@+id/happy"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/thankyou"
-            android:text="Thank you! "
+            android:drawableTop="@drawable/happy"
+            android:text="happy "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -85,12 +85,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/thirsty"
+            android:id="@+id/angry"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/thirsty"
-            android:text="I'm feeling thirsty. "
+            android:drawableTop="@drawable/angry"
+            android:text="angry "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -104,12 +104,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/hungry"
+            android:id="@+id/come"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/hungry"
-            android:text="I'm feeling hungry. "
+            android:drawableTop="@drawable/come"
+            android:text="come "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -117,12 +117,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/tired"
+            android:id="@+id/give"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/sleepy"
-            android:text="I'm feeling tired. "
+            android:drawableTop="@drawable/give"
+            android:text="give "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -130,12 +130,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/potty"
+            android:id="@+id/go"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/potty"
-            android:text="I need to use the toilet. "
+            android:drawableTop="@drawable/go"
+            android:text="go "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -148,12 +148,12 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/iLoveYou"
+            android:id="@+id/please"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/love"
-            android:text="I love you! "
+            android:drawableTop="@drawable/please"
+            android:text="please "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -161,12 +161,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/wantToPlay"
+            android:id="@+id/help"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/play"
-            android:text="Do you want to play? "
+            android:drawableTop="@drawable/help"
+            android:text="help "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
@@ -174,12 +174,12 @@
             style="@style/button_style1"
             android:textStyle="bold" />
         <Button
-            android:id="@+id/runAway"
+            android:id="@+id/home"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:drawableTop="@drawable/run"
-            android:text="Run away with me! "
+            android:drawableTop="@drawable/home"
+            android:text="home "
             android:textSize="9dip"
             android:layout_margin="5dp"
             android:background="@drawable/word_button"
